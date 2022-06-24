@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="-572" y="24"/>
         </scene>
-        <!--새 메모-->
+        <!--New Memo-->
         <scene sceneID="CJW-yZ-Xuj">
             <objects>
-                <viewController id="cQJ-KX-ehp" customClass="ComposeViewController" sceneMemberID="viewController">
+                <viewController id="cQJ-KX-ehp" customClass="ComposeViewController" customModule="NJMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7lY-Tk-Vtc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,8 +102,12 @@
                             <constraint firstItem="8s9-am-Bnt" firstAttribute="top" secondItem="7lY-Tk-Vtc" secondAttribute="top" id="wLg-vh-cCK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="새 메모" id="2ph-Ez-Tcg">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="2AN-bJ-JDF"/>
+                    <navigationItem key="navigationItem" title="New Memo" id="2ph-Ez-Tcg">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="2AN-bJ-JDF">
+                            <connections>
+                                <action selector="closeMemo:" destination="cQJ-KX-ehp" id="HoF-2N-BYs"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="BAn-oJ-u3A"/>
                     </navigationItem>
                 </viewController>
