@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		420E90452865F4BC00E53A4D /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E90442865F4BC00E53A4D /* ComposeViewController.swift */; };
+		42472094286B3DE2003BE68D /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42472093286B3DE2003BE68D /* UIViewController+Alert.swift */; };
 		42FD0B2F2859D5AA00D67D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD0B2E2859D5AA00D67D47 /* AppDelegate.swift */; };
 		42FD0B312859D5AA00D67D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD0B302859D5AA00D67D47 /* SceneDelegate.swift */; };
 		42FD0B362859D5AA00D67D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FD0B342859D5AA00D67D47 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		420E90442865F4BC00E53A4D /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		42472093286B3DE2003BE68D /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		42FD0B2B2859D5AA00D67D47 /* NJMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FD0B2E2859D5AA00D67D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FD0B302859D5AA00D67D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				42FD0B372859D5AA00D67D47 /* NJMemo.xcdatamodeld */,
 				42FD0BCD2860B9BF00D67D47 /* MemoListTableViewController.swift */,
 				420E90442865F4BC00E53A4D /* ComposeViewController.swift */,
+				42472093286B3DE2003BE68D /* UIViewController+Alert.swift */,
 			);
 			path = NJMemo;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				420E90452865F4BC00E53A4D /* ComposeViewController.swift in Sources */,
 				42FD0B312859D5AA00D67D47 /* SceneDelegate.swift in Sources */,
 				42FD0BCC2860B77800D67D47 /* Model.swift in Sources */,
+				42472094286B3DE2003BE68D /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
