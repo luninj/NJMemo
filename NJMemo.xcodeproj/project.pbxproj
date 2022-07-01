@@ -10,6 +10,7 @@
 		420E90452865F4BC00E53A4D /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E90442865F4BC00E53A4D /* ComposeViewController.swift */; };
 		42472094286B3DE2003BE68D /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42472093286B3DE2003BE68D /* UIViewController+Alert.swift */; };
 		42472096286B4727003BE68D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42472095286B4727003BE68D /* DetailViewController.swift */; };
+		42D69E5E286F343300E3F05F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D69E5D286F343300E3F05F /* DataManager.swift */; };
 		42FD0B2F2859D5AA00D67D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD0B2E2859D5AA00D67D47 /* AppDelegate.swift */; };
 		42FD0B312859D5AA00D67D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD0B302859D5AA00D67D47 /* SceneDelegate.swift */; };
 		42FD0B362859D5AA00D67D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FD0B342859D5AA00D67D47 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		420E90442865F4BC00E53A4D /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		42472093286B3DE2003BE68D /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		42472095286B4727003BE68D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		42D69E5D286F343300E3F05F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		42FD0B2B2859D5AA00D67D47 /* NJMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FD0B2E2859D5AA00D67D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FD0B302859D5AA00D67D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42D69E5C286F341B00E3F05F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				42D69E5D286F343300E3F05F /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		42FD0B222859D5AA00D67D47 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		42FD0B2D2859D5AA00D67D47 /* NJMemo */ = {
 			isa = PBXGroup;
 			children = (
+				42D69E5C286F341B00E3F05F /* Data */,
 				42FD0BCA2860B74300D67D47 /* Model */,
 				42FD0B2E2859D5AA00D67D47 /* AppDelegate.swift */,
 				42FD0B302859D5AA00D67D47 /* SceneDelegate.swift */,
@@ -168,6 +179,7 @@
 				42FD0B312859D5AA00D67D47 /* SceneDelegate.swift in Sources */,
 				42FD0BCC2860B77800D67D47 /* Model.swift in Sources */,
 				42472094286B3DE2003BE68D /* UIViewController+Alert.swift in Sources */,
+				42D69E5E286F343300E3F05F /* DataManager.swift in Sources */,
 				42472096286B4727003BE68D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
